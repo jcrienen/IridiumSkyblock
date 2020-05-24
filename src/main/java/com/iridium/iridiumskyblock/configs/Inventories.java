@@ -84,20 +84,20 @@ public class Inventories {
     public Item off = new Item(XMaterial.WHITE_STAINED_GLASS_PANE, 1, "&f&lOff", new ArrayList<>());
 
     public Map<Item, String> menu = new HashMap<Item, String>() {{
-        put(new Item(XMaterial.WHITE_BED, 13, 1, "&b&lIsland Home", Collections.singletonList("&7Teleport to your island home")), "is home");
-        put(new Item(XMaterial.PLAYER_HEAD, 14, 1, "&b&lIsland Members", "Peaches_MLG", Collections.singletonList("&7View your island Members.")), "is members");
-        put(new Item(XMaterial.GRASS_BLOCK, 36, 1, "&b&lIsland Regen", Collections.singletonList("&7Regenerate your island.")), "is regen");
-        put(new Item(XMaterial.PLAYER_HEAD, 21, 1, "&b&lIsland Upgrades", "ABigDwarf", Collections.singletonList("&7Upgrade your island.")), "is upgrade");
-        put(new Item(XMaterial.IRON_SWORD, 22, 1, "&b&lIsland Missions", Collections.singletonList("&7View island missions.")), "is missions");
-        put(new Item(XMaterial.EXPERIENCE_BOTTLE, 23, 1, "&b&lIsland Boosters", Collections.singletonList("&7Boost your island.")), "is booster");
-        put(new Item(XMaterial.BOOK, 31, 1, "&b&lIsland Permissions", Collections.singletonList("&7Change island permissions.")), "is permissions");
-        put(new Item(XMaterial.DIAMOND, 0, 1, "&b&lIsland Top", Collections.singletonList("&7View top islands.")), "is top");
-        put(new Item(XMaterial.END_PORTAL_FRAME, 20, 1, "&b&lIsland Warps", Collections.singletonList("&7View your island warps.")), "is warps");
-        put(new Item(XMaterial.BEACON, 24, 1, "&b&lIsland Border", Collections.singletonList("&7Change your island border.")), "is border");
-        put(new Item(XMaterial.NAME_TAG, 32, 1, "&b&lIsland Coop", Collections.singletonList("&7View your Co-op Islands.")), "is coop");
-        put(new Item(XMaterial.GOLD_INGOT, 30, 1, "&b&lIsland Bank", Collections.singletonList("&7View your Island Bank.")), "is bank");
-        put(new Item(XMaterial.PLAYER_HEAD, 12, 1, "&b&lIsland Biome", "BlockminersTV", Collections.singletonList("&7Change your island biome.")), "is biome");
-        put(new Item(XMaterial.BARRIER, 44, 1, "&b&lIsland Delete", Collections.singletonList("&7Delete your island.")), "is delete");
+        put(new Item(XMaterial.WHITE_BED, 13, 1, "&b&lIsland Home", Collections.singletonList("&7Teleport to your island home")), "area home");
+        put(new Item(XMaterial.PLAYER_HEAD, 14, 1, "&b&lIsland Members", "Peaches_MLG", Collections.singletonList("&7View your island Members.")), "area members");
+        put(new Item(XMaterial.GRASS_BLOCK, 36, 1, "&b&lIsland Regen", Collections.singletonList("&7Regenerate your island.")), "area regen");
+        put(new Item(XMaterial.PLAYER_HEAD, 21, 1, "&b&lIsland Upgrades", "ABigDwarf", Collections.singletonList("&7Upgrade your island.")), "area upgrade");
+        put(new Item(XMaterial.IRON_SWORD, 22, 1, "&b&lIsland Missions", Collections.singletonList("&7View island missions.")), "area missions");
+        put(new Item(XMaterial.EXPERIENCE_BOTTLE, 23, 1, "&b&lIsland Boosters", Collections.singletonList("&7Boost your island.")), "area booster");
+        put(new Item(XMaterial.BOOK, 31, 1, "&b&lIsland Permissions", Collections.singletonList("&7Change island permissions.")), "area permissions");
+        put(new Item(XMaterial.DIAMOND, 0, 1, "&b&lIsland Top", Collections.singletonList("&7View top islands.")), "area top");
+        put(new Item(XMaterial.END_PORTAL_FRAME, 20, 1, "&b&lIsland Warps", Collections.singletonList("&7View your island warps.")), "area warps");
+        put(new Item(XMaterial.BEACON, 24, 1, "&b&lIsland Border", Collections.singletonList("&7Change your island border.")), "area border");
+        put(new Item(XMaterial.NAME_TAG, 32, 1, "&b&lIsland Coop", Collections.singletonList("&7View your Co-op Islands.")), "area coop");
+        put(new Item(XMaterial.GOLD_INGOT, 30, 1, "&b&lIsland Bank", Collections.singletonList("&7View your Island Bank.")), "area bank");
+        put(new Item(XMaterial.PLAYER_HEAD, 12, 1, "&b&lIsland Biome", "BlockminersTV", Collections.singletonList("&7Change your island biome.")), "area biome");
+        put(new Item(XMaterial.BARRIER, 44, 1, "&b&lIsland Delete", Collections.singletonList("&7Delete your island.")), "area delete");
     }};
 
     public static class Item {

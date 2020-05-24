@@ -579,7 +579,7 @@ public class IridiumSkyblock extends JavaPlugin {
         missions.missions.remove(null);
 
 
-        commandManager = new CommandManager("island");
+        commandManager = new CommandManager("area");
         commandManager.registerCommands();
 
         if (configuration == null || missions == null || messages == null || upgrades == null || boosters == null || inventories == null || schematics == null || commands == null || blockValues == null || shop == null) {
